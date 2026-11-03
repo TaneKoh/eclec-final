@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Speaker")(type "KiCad")(uri "${KIPRJMOD}/libraries/Speaker.kicad_sym")(options "")(descr "Speaker DSP board parts (ADC, DAC, MCU, amp, buffer, connectors, encoder)"))
+)

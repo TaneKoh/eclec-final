@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Speaker")(type "KiCad")(uri "${KIPRJMOD}/libraries/Speaker.pretty")(options "")(descr "Speaker DSP board footprints"))
+)
