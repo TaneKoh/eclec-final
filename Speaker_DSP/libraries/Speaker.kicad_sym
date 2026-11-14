@@ -1536,4 +1536,712 @@
       )
     )
   )
+  (symbol "OPA1678IDRGT" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 2.54 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "OPA1678IDRGT" (id 1) (at 0 0 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "Speaker:DRG0008A" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "https://www.ti.com/lit/gpn/opa1678" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "ki_keywords" "OPA1678IDRGT" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "DRG0008A" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "OPA1678IDRGT_1_1"
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -5.08)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy -5.08 -5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.064 2.54)
+          (xy -2.54 2.54)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.064 -2.54)
+          (xy -2.54 -2.54)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.302 -1.778)
+          (xy -3.302 -3.302)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin output line (at 10.16 0 180) (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -10.16 2.54 0) (length 5.08)
+        (name "IN-" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -10.16 -2.54 0) (length 5.08)
+        (name "IN+" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "OPA1678IDRGT_2_1"
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 -5.08)
+          (xy 5.08 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -5.08 5.08)
+          (xy -5.08 -5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.064 2.54)
+          (xy -2.54 2.54)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -4.064 -2.54)
+          (xy -2.54 -2.54)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -3.302 -1.778)
+          (xy -3.302 -3.302)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin input line (at -10.16 -2.54 0) (length 5.08)
+        (name "IN+" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin input line (at -10.16 2.54 0) (length 5.08)
+        (name "IN-" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin output line (at 10.16 0 180) (length 5.08)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+    )
+    (symbol "OPA1678IDRGT_3_1"
+      (polyline
+        (pts
+          (xy -7.62 -5.08)
+          (xy 7.62 -5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 -5.08)
+          (xy 7.62 5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 7.62 5.08)
+          (xy -7.62 5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy -7.62 5.08)
+          (xy -7.62 -5.08)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin power_in line (at 12.7 0 180) (length 5.08)
+        (name "V-" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at -12.7 0 0) (length 5.08)
+        (name "V+" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 12.7 -2.54 180) (length 5.08)
+        (name "PAD" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "WE-SPXO_IQXO-791" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "Y" (id 0) (at 0.0 6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "8MHz 831072801" (id 1) (at -5.08 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "Speaker:WE-SPXO_IQXO-791" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/831072801_Wurth_Electronics_Inc.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/831072801_Wurth_Electronics_Inc.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "WE-SPXO 8 MHz CMOS oscillator 3.3V 2.5x2.0mm" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Würth Elektronik" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "831072801" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/831072801/W%25C3%25BCrth+Elektronik+Midcom/view-part/" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "WE-SPXO_IQXO-791_0_0"
+      (polyline
+        (pts (xy -1.778 0.0) (xy -0.762 0.0)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy -0.762 0.889)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy -0.762 0.0) (xy -0.762 -0.889)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy -0.254 0.635) (xy 0.254 0.635)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy 0.254 0.635) (xy 0.254 -0.635)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy 0.254 -0.635) (xy -0.254 -0.635)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy -0.254 -0.635) (xy -0.254 0.635)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy 1.778 0.0) (xy 0.762 0.0)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy 0.762 0.0) (xy 0.762 -0.889)) (stroke (width 0.1016))
+      )
+      (polyline
+        (pts (xy 0.762 0.0) (xy 0.762 0.889)) (stroke (width 0.1016))
+      )
+      (rectangle (start -10.16 -5.08) (end 10.16 5.08)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -12.7 -2.54 0) (length 2.54)
+        (name "E/D"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 2.54 0) (length 2.54)
+        (name "+VS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -2.54 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 2.54 180.0) (length 2.54)
+        (name "OUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+  (symbol "IN-S85TATRGB"
+  		(pin_names
+  			(offset 1.016)
+  		)
+  		(in_bom yes)
+  		(on_board yes)
+  		(property "Reference" "D"
+  			(at -6.35 8.89 0)
+  			(effects
+  				(font
+  					(size 1.524 1.524)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Value" "IN-S85TATRGB"
+  			(at -6.35 6.35 0)
+  			(effects
+  				(font
+  					(size 1.524 1.524)
+  				)
+  				(justify left)
+  			)
+  		)
+  		(property "Footprint" "Speaker:IN-S85TATRGB"
+  			(at 0 0 0)
+  			(effects
+  				(font
+  					(size 1.524 1.524)
+  				)
+  				hide
+  			)
+  		)
+  		(property "Datasheet" "https://www.inolux-corp.com/datasheet/SMDLED/RGB%20Top%20View/IN-S85TATRGB_V1.2.pdf"
+  			(at 0 0 0)
+  			(effects
+  				(font
+  					(size 1.524 1.524)
+  				)
+  				hide
+  			)
+  		)
+  		(property "Description" "RGB LED, 0805, common anode. Pin 3 = anode, 1 = R, 2 = G, 4 = B"
+  			(at 0 0 0)
+  			(effects
+  				(font
+  					(size 1.27 1.27)
+  				)
+  				hide
+  			)
+  		)
+  		(symbol "IN-S85TATRGB_0_0"
+  			(polyline
+  				(pts
+  					(xy -8.89 -1.27) (xy -6.35 -1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center -7.62 3.81)
+  				(radius 0.381)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type outline)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -7.112 -1.778) (xy -6.35 -2.54) (xy -6.35 -2.032)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -7.112 -2.794) (xy -6.35 -3.556) (xy -6.35 -3.048)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -6.35 1.27) (xy -8.89 1.27) (xy -7.62 -1.27) (xy -6.35 1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type outline)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -6.35 -2.54) (xy -6.858 -2.54)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -6.35 -3.556) (xy -6.858 -3.556)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(circle
+  				(center 0 3.81)
+  				(radius 0.4064)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type outline)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0 1.27) (xy 0 3.81)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0.508 -1.778) (xy 1.27 -2.54) (xy 1.27 -2.032)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 0.508 -2.794) (xy 1.27 -3.556) (xy 1.27 -3.048)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.27 -2.54) (xy 0.762 -2.54)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 1.27 -3.556) (xy 0.762 -3.556)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 7.62 1.27) (xy 7.62 3.81) (xy -7.62 3.81) (xy -7.62 1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 8.128 -1.778) (xy 8.89 -2.54) (xy 8.89 -2.032)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 8.128 -2.794) (xy 8.89 -3.556) (xy 8.89 -3.048)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 8.89 -2.54) (xy 8.382 -2.54)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 8.89 -3.556) (xy 8.382 -3.556)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(text "R"
+  				(at -6.35 0 0)
+  				(effects
+  					(font
+  						(size 1.524 1.524)
+  					)
+  					(justify left)
+  				)
+  			)
+  			(text "G"
+  				(at 1.27 0 0)
+  				(effects
+  					(font
+  						(size 1.524 1.524)
+  					)
+  					(justify left)
+  				)
+  			)
+  			(text "B"
+  				(at 8.89 0 0)
+  				(effects
+  					(font
+  						(size 1.524 1.524)
+  					)
+  					(justify left)
+  				)
+  			)
+  		)
+  		(symbol "IN-S85TATRGB_0_1"
+  			(polyline
+  				(pts
+  					(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 -1.27) (xy -1.27 1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type outline)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy -1.27 -1.27) (xy 1.27 -1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 6.35 1.27) (xy 8.89 1.27) (xy 7.62 -1.27) (xy 6.35 1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type outline)
+  				)
+  			)
+  			(polyline
+  				(pts
+  					(xy 6.35 -1.27) (xy 8.89 -1.27)
+  				)
+  				(stroke
+  					(width 0)
+  					(type default)
+  				)
+  				(fill
+  					(type none)
+  				)
+  			)
+  		)
+  		(symbol "IN-S85TATRGB_1_1"
+  			(pin passive line
+  				(at -7.62 6.35 270)
+  				(length 2.54)
+  				(name "~"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "3"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at -7.62 -3.81 90)
+  				(length 2.54)
+  				(name "~"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "1"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 0 -3.81 90)
+  				(length 2.54)
+  				(name "~"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "2"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  			(pin passive line
+  				(at 7.62 -3.81 90)
+  				(length 2.54)
+  				(name "~"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  				(number "4"
+  					(effects
+  						(font
+  							(size 1.27 1.27)
+  						)
+  					)
+  				)
+  			)
+  		)
+  	)
 )
