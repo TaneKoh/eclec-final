@@ -57,9 +57,9 @@
   (fp_line (start -0.574912 6.121342) (end 3.348894 6.121343) (layer "F.CrtYd") (width 0.1524))
   (pad "4" np_thru_hole circle (at 1.500124 -4.1) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu *.Mask))
   (pad "5" np_thru_hole circle (at 1.500124 3.4) (size 0.9906 0.9906) (drill 0.9906) (layers *.Cu *.Mask))
-  (pad "2" np_thru_hole oval (at 4.250182 5.300002 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
-  (pad "3" np_thru_hole oval (at -1.249817 5.300002 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
-  (pad "1" np_thru_hole oval (at 0 0 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
+  (pad "2" thru_hole oval (at 4.250182 5.300002 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
+  (pad "3" thru_hole oval (at -1.249817 5.300002 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
+  (pad "1" thru_hole oval (at 0 0 90) (size 2.0066 1.4986) (drill oval 1.4986 0.9906) (layers *.Cu *.Mask))
   (model "${KIPRJMOD}/libraries/3dmodels/STX-3000_rD3.IGS"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
