@@ -1689,464 +1689,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Speaker:OPA1678IDRGT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "OPA1678IDRGT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Speaker:DRG0008A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/opa1678"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "OPA1678IDRGT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DRG0008A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "OPA1678IDRGT_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -1.778) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1678IDRGT_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy -5.08 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 2.54) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.064 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 -1.778) (xy -3.302 -3.302)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "OPA1678IDRGT_3_1"
-				(polyline
-					(pts
-						(xy -7.62 5.08) (xy -7.62 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy -7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Speaker:PAM8406DR"
 			(pin_names
 				(offset 0.254)
@@ -6918,6 +6460,12 @@
 		(uuid "0efec22e-876c-4aaa-bf75-b10203e9afe2")
 	)
 	(junction
+		(at 29.21 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fd2ca73-67a5-437b-b3ed-cf8c94acb7dd")
+	)
+	(junction
 		(at 105.41 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6940,6 +6488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "201e3c9a-feac-43f7-939d-73473d889c70")
+	)
+	(junction
+		(at 68.58 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22f2bd9a-398c-4f34-be34-9d97213be0b2")
 	)
 	(junction
 		(at 86.36 116.84)
@@ -6976,12 +6530,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a6a7bc-b0ad-46ce-8718-b2552f9ec229")
-	)
-	(junction
-		(at 49.53 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ac0605d-de4f-40ce-8274-090302b67109")
 	)
 	(junction
 		(at 431.8 50.8)
@@ -7102,6 +6650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a872cec1-ed10-40e4-8b2d-fdd1d8a84485")
+	)
+	(junction
+		(at 77.47 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a92d7301-0007-4865-97dd-517c1719912c")
 	)
 	(junction
 		(at 431.8 33.02)
@@ -7385,7 +6939,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 78.74) (xy 29.21 93.98)
+			(xy 29.21 78.74) (xy 29.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7835,6 +7389,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 91.44) (xy 29.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d352dd-ed9a-4733-95b1-9b0f2367d264")
+	)
+	(wire
+		(pts
 			(xy 532.13 109.22) (xy 457.2 109.22)
 		)
 		(stroke
@@ -8155,6 +7719,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 124.46) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3155c0-40ac-4364-9dfe-a4d2fa6e0dd2")
+	)
+	(wire
+		(pts
 			(xy 419.1 48.26) (xy 420.37 48.26)
 		)
 		(stroke
@@ -8385,17 +7959,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 161.29) (xy 49.53 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "609256a4-5279-41bf-85d2-5586425b720e")
-	)
-	(wire
-		(pts
-			(xy 521.97 72.39) (xy 521.97 116.84)
+			(xy 521.97 72.39) (xy 521.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8725,7 +8289,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 102.87) (xy 68.58 137.16)
+			(xy 68.58 102.87) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9065,6 +8629,16 @@
 	)
 	(wire
 		(pts
+			(xy 501.65 127) (xy 501.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb902fa-ee19-4629-8843-905c86eb1cff")
+	)
+	(wire
+		(pts
 			(xy 436.88 139.7) (xy 436.88 142.24)
 		)
 		(stroke
@@ -9082,6 +8656,16 @@
 			(type default)
 		)
 		(uuid "a0e05206-58b4-492b-bcc0-3fbcf60bbe32")
+	)
+	(wire
+		(pts
+			(xy 77.47 127) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ecbb79-e529-4581-8501-5af8a8298d63")
 	)
 	(wire
 		(pts
@@ -9155,7 +8739,7 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 74.93) (xy 501.65 120.65)
+			(xy 501.65 74.93) (xy 501.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -9195,13 +8779,23 @@
 	)
 	(wire
 		(pts
-			(xy 501.65 128.27) (xy 501.65 144.78)
+			(xy 501.65 93.98) (xy 501.65 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1b63347-3aae-4b20-940c-1c0d439e758f")
+	)
+	(wire
+		(pts
+			(xy 68.58 123.19) (xy 68.58 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dbdab5-22cc-4198-b6a8-9c209a085b77")
 	)
 	(wire
 		(pts
@@ -9315,7 +8909,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 93.98) (xy 77.47 134.62)
+			(xy 77.47 93.98) (xy 77.47 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9352,6 +8946,16 @@
 			(type default)
 		)
 		(uuid "c5d64bc5-f54f-4045-8817-8ade7f6ab4ba")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71a1c9e-0fc2-4b84-92ff-6024f8075c0f")
 	)
 	(wire
 		(pts
@@ -9925,6 +9529,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 101.6) (xy 521.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4c6700-79f9-44fc-b53a-0c3a7f232e5f")
+	)
+	(wire
+		(pts
 			(xy 116.84 167.64) (xy 118.11 167.64)
 		)
 		(stroke
@@ -10052,6 +9666,85 @@
 			(justify right bottom)
 		)
 		(uuid "de782025-c534-4281-b007-3ecb30060393")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0104175b-68c2-4b09-8472-829d59f48c56")
+		(property "Reference" "#PWR057"
+			(at 50.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 91.4399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0aa3d62a-f50b-4f71-bf82-2abca5b067ed")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -11794,6 +11487,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 440.69 129.54 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e7d14d7-c9f9-4d9c-8dce-2eccc169aabf")
+		(property "Reference" "R32"
+			(at 438.15 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 438.15 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 440.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 440.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "RGB blue cathode resistor"
+			(at 440.69 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72bec912-e0de-4ad1-9191-f3ca77b8512b")
+		)
+		(pin "2"
+			(uuid "0381cf70-628e-4800-be35-02ed925052bb")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 440.69 160.02 90)
 		(unit 1)
@@ -11947,6 +11731,97 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 501.65 123.19 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2094229e-ffc6-49a2-a243-a44e154fdc6a")
+		(property "Reference" "R33"
+			(at 499.11 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 499.11 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 501.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 501.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "RGB blue cathode resistor"
+			(at 501.65 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b54177fb-070b-49ec-8cae-f0bafdaba6f9")
+		)
+		(pin "2"
+			(uuid "45bef55e-e81a-417f-aedf-9862e1faef82")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12507,6 +12382,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 73.66 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "342c3a8d-4ba1-4ae3-9018-cda4442b4b82")
+		(property "Reference" "C20"
+			(at 64.77 124.206 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 69.85 124.714 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 77.47 126.0348 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c254ba60-79eb-450b-a291-a80c9708c8a8")
+		)
+		(pin "2"
+			(uuid "9d4d0600-bd06-407f-bd4e-6e454e7affe1")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 85.09 73.66 0)
 		(mirror y)
@@ -12592,6 +12546,86 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 91.44 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39b011ce-8269-4f1a-ad3b-c54fe478e89f")
+		(property "Reference" "C32"
+			(at 40.64 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22 uf"
+			(at 40.64 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 44.45 90.4748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9225ea2d-9c83-4de9-8dfe-0de15cacfd3a")
+		)
+		(pin "2"
+			(uuid "76cc7610-8c03-4fe7-b090-4c90bb011040")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13154,85 +13188,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 161.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d688b94-4811-4796-9b4b-62518a2184d0")
-		(property "Reference" "#PWR026"
-			(at 27.94 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 20.32 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7650878d-fb64-45ae-bb02-9d415646025c")
-		)
-		(instances
-			(project "Speaker_DSP"
-				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 21.59 90.17 90)
 		(unit 1)
@@ -13495,6 +13450,96 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 68.58 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "522b2f60-6d99-4638-9f52-250664959fed")
+		(property "Reference" "R31"
+			(at 66.04 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 71.12 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Power LED resistor, from +3.3V"
+			(at 68.58 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed6ad6bd-f5a9-4f59-8328-cd06129b4c7f")
+		)
+		(pin "2"
+			(uuid "36bee281-0eb0-4313-8e0a-25c12735723a")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 200.66 218.44 90)
 		(unit 1)
 		(body_style 1)
@@ -13646,85 +13691,6 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 161.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57993f07-4cd2-4a10-a63e-fb6ff928c6b7")
-		(property "Reference" "#PWR063"
-			(at 55.88 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88bc8c83-3f1e-4250-86f1-c4d3691def0f")
-		)
-		(instances
-			(project "Speaker_DSP"
-				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -13917,6 +13883,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ad32c7b-d0ba-4497-a1c6-50d79d508159")
+		(property "Reference" "#PWR026"
+			(at 63.5 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5a77b98-f0ff-46c7-8c50-f4f1dbb77175")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_2")
 		(lib_id "Device:R")
 		(at 154.94 55.88 0)
@@ -14001,7 +14046,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 501.65 124.46 0)
+		(at 501.65 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14011,7 +14056,7 @@
 		(dnp no)
 		(uuid "5d62d1e2-c11c-4772-893c-3de76e5b2c13")
 		(property "Reference" "C45"
-			(at 493.776 125.222 90)
+			(at 493.776 90.932 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14021,7 +14066,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 497.332 123.19 90)
+			(at 497.332 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14031,7 +14076,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 505.46 123.495 0)
+			(at 505.46 89.205 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14042,7 +14087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 501.65 124.46 0)
+			(at 501.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14053,7 +14098,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 501.65 124.46 0)
+			(at 501.65 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14864,106 +14909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Speaker:OPA1678IDRGT")
-		(at 36.83 161.29 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f7b92e9-112c-49c4-bf61-22d7905d6c61")
-		(property "Reference" "U9"
-			(at 36.83 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA1678IDRGT"
-			(at 36.83 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Speaker:DRG0008A"
-			(at 36.83 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa1678"
-			(at 36.83 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual low-noise audio op-amp, WSON-8 (DRG)"
-			(at 36.83 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "4d876e87-5e17-411e-9596-feae52aedac8")
-		)
-		(pin "8"
-			(uuid "25ada18d-7e82-4054-9f04-18d216594a08")
-		)
-		(pin "9"
-			(uuid "11cf9464-4551-46e4-8e2a-8b3ba3b1849a")
-		)
-		(pin "2"
-			(uuid "81abed4e-3b2b-4584-b1d2-56287e685abe")
-		)
-		(pin "1"
-			(uuid "ac573876-4e75-42fd-9df2-d0683c4589bf")
-		)
-		(pin "7"
-			(uuid "39ed9797-b7a6-415b-8571-587b387b97fa")
-		)
-		(pin "3"
-			(uuid "6e2190cb-b70b-45f9-8c5c-09dfc921ce92")
-		)
-		(pin "6"
-			(uuid "c98bf6dd-8d9c-4bea-9d48-9108e15c199e")
-		)
-		(pin "5"
-			(uuid "f47fd94d-4b78-40dc-a357-2d23b36b35f7")
-		)
-		(instances
-			(project "Speaker_DSP"
-				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
-					(reference "U9")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 68.58 90)
 		(unit 1)
@@ -15117,6 +15062,85 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 521.97 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ecd6743-0d40-4da4-ac8e-296649765bd3")
+		(property "Reference" "C41"
+			(at 514.096 98.552 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uf"
+			(at 517.652 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 525.78 96.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 521.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 521.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b47f0cd8-7ec5-4083-9ed6-ac3ddf7a304c")
+		)
+		(pin "2"
+			(uuid "24ddc7a3-85cd-4646-a9a8-f458129c8183")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -16439,6 +16463,96 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 77.47 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cffed53-2706-4614-aa76-fdd85bcf2478")
+		(property "Reference" "R30"
+			(at 74.93 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 80.01 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 77.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Power LED resistor, from +3.3V"
+			(at 77.47 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2364f8d7-93ca-495e-94fb-1bbc5dec7307")
+		)
+		(pin "2"
+			(uuid "951aabfa-6971-42b0-a566-65e22e779cbe")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 554.99 49.53 0)
 		(mirror y)
 		(unit 1)
@@ -16680,85 +16794,6 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 440.69 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a206da39-ef0e-4763-a1fd-8e7670b9652e")
-		(property "Reference" "C41"
-			(at 432.816 130.302 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uf"
-			(at 436.372 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 444.5 128.575 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 440.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 440.69 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "052999d3-a5fa-4fc4-9c2e-943025990d2a")
-		)
-		(pin "2"
-			(uuid "d2552b95-8be9-44db-8334-47fc987f07a8")
-		)
-		(instances
-			(project "Speaker_DSP"
-				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
-					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -17389,6 +17424,175 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b4433b9f-305e-4c9f-a9bb-6d838668ebaa")
+		(property "Reference" "C23"
+			(at 55.88 121.666 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 60.96 122.174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 68.58 123.4948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a95024dc-90df-4ea5-8997-6356f8a206c3")
+		)
+		(pin "2"
+			(uuid "eed2272f-509f-4d6c-811b-7b4e5fc34ddd")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b456c181-0133-4429-97e3-ffb654f20455")
+		(property "Reference" "R34"
+			(at 33.02 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 33.02 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "Power LED resistor, from +3.3V"
+			(at 33.02 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17b8fe94-348a-407c-9b8b-7c8a324cc622")
+		)
+		(pin "2"
+			(uuid "00a8d8e6-8380-4087-94ba-9a88cccac173")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -20624,6 +20828,85 @@
 			(project "Speaker_DSP"
 				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee6d5735-503f-4e67-ad9b-8d8ef6ad80d3")
+		(property "Reference" "#PWR040"
+			(at 54.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5855348-8086-49a8-b9a0-6007f0d689a2")
+		)
+		(instances
+			(project "Speaker_DSP"
+				(path "/1a688c5e-2c96-4795-968e-52e9757f91ba"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
