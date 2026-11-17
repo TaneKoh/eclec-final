@@ -11508,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "47k"
 			(at 438.15 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11758,7 +11758,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "47k"
 			(at 499.11 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
